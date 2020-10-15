@@ -11,7 +11,8 @@ class SearchBar extends React.Component {
   };
   render() {
     return (
-      <form className="ui form" onSubmit={this.onFormSubmit}>
+      <form className="ui form" onSubmit={this.onFormSubmit}
+      style={{padding:'15px'}}>
         <div className="field ">
           <div className="ui icon input">
             <input
